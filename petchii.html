@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    .linkedin-btn{
+    display: inline-block;
+    background-color: #0077b5;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    }
+
+    .linkedin-btn:hover{
+    background-color: #005582;
+    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aishwarya.R | Portfolio</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', aishwarya R;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+        }
+
+        /* Header */
+
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 17px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        /* Hero Section */
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 120px 10%;
+        }
+
+        .hero-text {
+            max-width: 600px;
+        }
+
+        .hero-text h3 {
+            font-size: 28px;
+        }
+
+        .hero-text h1 {
+            font-size: 65px;
+            color: #38bdf8;
+            margin: 10px 0;
+        }
+
+        .hero-text h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            color: #cbd5e1;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 35px;
+            background: #38bdf8;
+            color: black;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-4px);
+        }
+
+        .image-box {
+            width: 350px;
+            height: 350px;
+            border-radius: 30px;
+            background: linear-gradient(135deg, #38bdf8, #2563eb);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 40px rgba(56, 189, 248, 0.3);
+        }
+
+        .image-box img {
+            width: 90%;
+            border-radius: 20px;
+        }
+
+        /* Sections */
+
+        section {
+            padding: 90px 10%;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 50px;
+            color: #38bdf8;
+        }
+
+        /* About */
+
+        .about-box {
+            background: #1e293b;
+            padding: 40px;
+            border-radius: 20px;
+            line-height: 1.9;
+        }
+
+        /* Skills */
+
+        .skill-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: #1e293b;
+            padding: 30px;
+            text-align: center;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Projects */
+
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .project-card {
+            background: #5c247c;
+            padding: 25px;
+            border-radius: 20px;
+            transition: 0.3s;
+
+
+            .project-card:hover {
+                transform: scale(1.03);
+            }
+
+            /* Contact */
+
+            .contact-box {
+                background: #1e293b;
+                padding: 40px;
+                border-radius: 20px;
+                text-align: center;
+            }
+
+            footer {
+                text-align: center;
+                padding: 20px;
+                background: #020617;
+                color: #94a3b8;
+            }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Aishwarya</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h3>Hello, I'm</h3>
+            <h1>Aishwarya R</h1>
+            <h2>AI & Data Science Student</h2>
+
+            <p>
+                Passionate about Artificial Intelligence,
+                Web Development and creating innovative projects.
+                Currently learning Python, Java, HTML and CSS.
+            </p>
+
+            <a href="./Aishwarya_Professional_Resume.pdf" class="btn">Download Resume</a>
+
+        </div>
+
+        <div class="image-box">
+            <img src="./aishuphoto.jpg.jpeg" alt="Profile">
+        </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section id="about">
+
+        <h2 class="title">About Me</h2>
+
+        <div class="about-box">
+            I am an Artificial Intelligence and Data Science student
+            passionate about technology, problem-solving, and creating
+            smart solutions. I am continuously improving my programming
+            and development skills to build impactful projects.
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills">
+
+        <h2 class="title">My Skills</h2>
+
+        <div class="skill-container">
+
+            <div class="skill-card">
+                <h3>Python</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>Java</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+            </div>
+
+        </div>
+
+        <!-- Education -->
+        <section id="education">
+
+            <h2 class="title">Education</h2>
+
+            <div class="project-container">
+
+                <div class="project-card">
+                    <h3>B.E-AI&DS - Second Year</h3>
+                    <p>Currently pursuing degree with interest in AI, Machine Learning and Web Development.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Machine Learning Internship</h3>
+                    <p>Working on AI and Deep Learning based projects using Python.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Certifications -->
+        <section id="certifications">
+
+            <h2 class="title">Certifications</h2>
+
+            <div class="project-container">
+
+                <div class="project-card">
+                    <h3>Python Programming</h3>
+                    <p>Joy of computing using python
+                        Introduction to Industries and industrial IOT
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Machine Learning</h3>
+                    <p>Learning ML concepts, model building and AI project development.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Projects -->
+
+        <section id="projects">
+
+            <h2 class="title">Projects</h2>
+
+            <div class="project-container">
+
+                <div class="project-card">
+                    <h3>lost attention detection for meetings</h3>
+                    <p>AI-based project to detect participants attention in meetings</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>Modern responsive portfolio design.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact -->
+
+        <section id="contact">
+
+            <h2 class="title">Contact Me</h2>
+
+            <div class="contact-box">
+                <p>Email: iiswarya7972@gmail.com</p>
+                <p>Phone: +91 8+0723 61958</p>
+                <p>LinkedIn:
+                    <a href="https://www.linkedin.com/in/aishwarya-rajasekar-674a723a8" target="_blank"
+                        class="linkedin-btn">
+                        LinkedIn: Visit My Profile
+                    </a>
+                </p>
+            </div>
+
+        </section>
+
+        <footer>
+            © 2026 Aishwarya R | Portfolio Website
+        </footer>
+
+</body>
+
+</html>
